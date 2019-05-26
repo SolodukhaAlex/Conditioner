@@ -1,0 +1,954 @@
+@font-face {
+    font-family: "ArialBlack";
+    src: url("../Fonts/ArialBlack/ArialBlack.eot");
+    src: url("../Fonts/ArialBlack/ArialBlack.eot?#iefix")format("embedded-opentype"),
+        url("../Fonts/ArialBlack/ArialBlack.woff") format("woff"),
+        url("../Fonts/ArialBlack/ArialBlack.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica-Regular';
+    src: url('../Fonts/Helvetica-Regular.eot');
+    src: url('../Fonts/Helvetica-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/Helvetica-Regular.svg#Helvetica-Regular') format('svg'),
+        url('../Fonts/Helvetica-Regular.ttf') format('truetype'),
+        url('../Fonts/Helvetica-Regular.woff') format('woff'),
+        url('../Fonts/Helvetica-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    margin: 0 auto;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+}
+
+.phonenumbers {
+    font-weight: bold;
+    min-width: 100%;
+    height: 40px;
+    background-color: #ffffff;
+    color: #000099;
+    display: flex;
+    justify-content: center;
+}
+
+.phonenumbers a {
+    color: #000099;
+    text-decoration: none;
+}
+
+.phones {
+    max-width: 630px;
+    padding-left: 10px;
+    line-height: 40px;
+}
+
+.navbar-menu {
+    min-width: 100%;
+    min-height: 80px;
+    background-color: #000099;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nm {
+    max-width: 440px;
+    line-height: 80px;
+    font-size: 18px;
+    color: white;
+    margin-left: auto;
+
+}
+
+.nm ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+
+.nm li a {
+    display: block;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+
+}
+
+.nm li a:hover {
+    color: #cc3366;
+}
+
+.icons {
+    width: 65px;
+    line-height: 80px;
+    font-size: 22px;
+    margin-left: 5px;
+
+
+}
+
+.icons a {
+    color: #ffffff;
+}
+
+
+.logo {
+    padding-left: 50px;
+    padding-top: 6px;
+}
+
+.logo img {
+    width: 145px;
+}
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-head {
+    background: url(../Images/conditioner-fone.jpg) center center no-repeat fixed / cover;
+    max-height: 100vh;
+    text-align: center;
+
+}
+
+.main-head h1 {
+    font-family: "ArialBlack";
+    font-size: 115px;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 35vh;
+    margin: 0 0 10px 0;
+}
+
+.main-head h2 {
+    font-family: "ArialBlack";
+    font-size: 26px;
+    color: #fff;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
+
+.main-head a {
+    text-decoration: none;
+
+}
+
+.main-head a i {
+    margin-top: -35px;
+
+    font-size: 40px;
+}
+
+.services {
+    content: "";
+    height: 850px;
+    text-align: center;
+}
+
+.services span {
+    visibility: hidden;
+
+}
+
+.services h2 {
+    margin-top: 70px;
+    font-family: "ArialBlack";
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #FB6648;
+}
+
+.services h2::after {
+    content: "";
+    display: block;
+    margin: 30px auto 0;
+    width: 60px;
+    height: 2px;
+    background-color: #FB6648;
+}
+
+.serv {
+    margin: 0 auto;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.serv-item {
+    width: 180px;
+    padding-top: 50px;
+    font-weight: 300;
+}
+
+.test-img {
+    width: 146px;
+    height: 125px;
+    margin: 0 auto;
+}
+.vert{
+    padding-top: 28px;
+}
+
+.serv-item p {
+    padding-top: 15px;
+    color: #0000A1;
+}
+
+.serv-item:nth-child(2) .test-img img {
+    padding-top: 20px;
+}
+
+.serv-item:nth-child(3) .test-img img {
+    padding-top: 25px;
+}
+
+.serv-item:nth-child(4) .test-img img {
+    padding-top: 15px;
+}
+
+.sale {
+    height: auto;
+    background: url(../Images/section-prise1.jpg) top center no-repeat fixed / cover;
+    text-align: center;
+}
+
+.sale h2 {
+
+    font-family: "ArialBlack";
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+}
+
+.sale h2:first-child {
+    padding-top: 50px;
+}
+
+.sale-txt {
+    padding: 30px;
+    color: #fff;
+}
+
+input[type="text"] {
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 35px;
+    margin: 20px 30px 0 0;
+    padding-left: 10px;
+}
+
+[type="button"] {
+    display: block;
+    width: 210px;
+    padding-left: 10px;
+    margin: 25px auto 0;
+    height: 45px;
+    background: none;
+    border-radius: 30px;
+    border: 3px solid #fff;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.sale-txt [type="button"]:hover {
+    border: 3px solid #FB6648;
+}
+
+.about-us {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E6E6E6;
+
+}
+
+.txt-about-us {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+.us-item {
+    width: 50%;
+}
+
+.us-item:last-child {
+    height: 100%;
+    background: url(../Images/about-us-img.jpg) center center no-repeat local / cover;
+}
+
+.about-us h2 {
+    margin-top: 0;
+    font-family: "ArialBlack";
+    font-size: 3vw;
+    text-transform: uppercase;
+    color: #FB6648;
+}
+.txt-about-us .choise {
+    display: flex;
+    font-family: "ArialBlack";
+    font-size: 22px;
+    color: #FB6648;
+    justify-content: space-between;
+}
+.choise span{
+    cursor: pointer;
+}
+
+.chosen::after,
+.chosen1::after {
+    transition: .5s;
+    content: "";
+    width: 0;
+    margin-top: 5px;
+    display: block;
+    height: 2px;
+    background: #FB6648;
+}
+
+.click-choise::after{
+    width: 100%;
+}
+.change-scr{
+    color:#000043;
+    font-size: 17px;
+    height: 140px;
+}
+.connection {
+    position: relative;
+    overflow: inherit;
+}
+
+.back {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.back img {
+
+    width: 33.3333%;
+    height: 33.3333%;
+
+}
+
+.decor {
+    position: absolute;
+    max-width: 400px;
+    background: white;
+    border-radius: 30px;
+    align-self: center;
+
+}
+
+.form-left-decoration,
+.form-right-decoration {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.form-left-decoration {
+    bottom: 100px;
+    left: -30px;
+}
+
+.form-right-decoration {
+    top: 60px;
+    right: -30px;
+}
+
+.form-left-decoration:before,
+.form-left-decoration:after,
+.form-right-decoration:before,
+.form-right-decoration:after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    border-radius: 30px;
+    background: white;
+}
+
+.form-left-decoration:before {
+    top: -20px;
+}
+
+.form-left-decoration:after {
+    top: 20px;
+    left: 10px;
+}
+
+.form-right-decoration:before {
+    top: -20px;
+    right: 0;
+}
+
+.form-right-decoration:after {
+    top: -45px;
+    right: 10px;
+}
+
+.circle {
+    position: absolute;
+    bottom: 80px;
+    left: -55px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+}
+
+.form-inner {
+    padding: 20px;
+}
+
+.form-inner input,
+.form-inner textarea {
+    display: block;
+    width: 89%;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background: #E9EFF6;
+    line-height: 40px;
+    border-width: 0;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-inner input[type="button"] {
+    margin-top: 30px;
+    background: #0000A1;
+    border-bottom: 4px solid #000043;
+    color: white;
+    font-size: 14px;
+}
+
+.form-inner textarea {
+    resize: none;
+}
+
+.form-inner h3 {
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #707981;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.item {
+    text-align: center;
+}
+
+.item p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #0000A1;
+}
+
+.item p::after {
+    content: "\201D";
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    color: #2b3746;
+    display: block;
+    margin-top: 25px;
+}
+
+.item h5 {
+    font-size: 15px;
+    color: #000043;
+    margin: 15px 0 5px;
+
+}
+
+.item h6 {
+    font-size: 13px;
+    color: #29323c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    opacity: .8;
+    margin: 0;
+}
+
+.comment {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.owl-carousel .owl-item img {
+    width: auto;
+    margin: 0 auto;
+}
+
+.owl-dots {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.owl-carousel button.owl-dot {
+    height: 15px;
+    width: 15px;
+    border: 1px solid #29323c;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.owl-carousel button.owl-dot:hover,
+.owl-carousel button.owl-dot.active {
+    background: #29323c;
+    outline: none;
+}
+
+.comment h2 {
+    margin-top: 70px;
+    font-family: "ArialBlack";
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #FB6648;
+}
+
+.owl-carousel.owl-loaded {
+    display: block;
+    padding-bottom: 40px;
+}
+
+footer {
+    background: #EDEDFF;
+    color: #000043;
+}
+
+.main-footer {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.item-footer {
+    width: 19%;
+    margin: 40px 10px;
+    padding: 15px;
+    background: #EDEDFF;
+
+    border-right: 1px solid rgb(100, 100, 100);
+    border-left: 1px solid rgb(100, 100, 100);
+    border-bottom: 1px solid rgba(100, 100, 100, .3);
+    border-top: 1px solid rgba(100, 100, 100, .3);
+
+
+    box-shadow:
+        20px 0 20px -20px #080084 inset,
+        -20px 0 20px -20px #080084 inset;
+}
+
+.item-footer h2,
+.item-footer h3 {
+    text-align: center;
+}
+
+.item-footer p a {
+    text-decoration: none;
+    color: #000043;
+}
+
+.item-footer p i {
+    padding-right: 5px;
+    font-size: 22px;
+}
+
+.soc i {
+    font-size: 40px;
+    margin: 30px 0 0 30px;
+}
+
+.soc a:first-child {
+
+    display: inline-block;
+    text-decoration: none;
+    color: #4267B2;
+}
+
+.soc a:last-child {
+    text-decoration: none;
+    color: #d6249f;
+}
+.phones a::after{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 14px;
+    background: #000099;
+}
+.phones a:last-child::after{
+    display: none;
+}
+.main-head a i {
+    padding-bottom:200px;
+}
+.price h2 {
+    margin-top: 55px;
+    margin-bottom: 55px;
+    font-family: "ArialBlack";
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #FB6648;
+    text-align: center;
+
+}
+
+.prices {
+    border-collapse: collapse;
+    max-width: 1144px;
+    margin: 0 auto;
+    margin-bottom: 55px;
+    font: 16px/1.8 "Poppins", sans-serif;
+}
+
+.prices td,
+.prices th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.m {
+    background-color: #d9edf7;
+}
+
+.prices tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.prices tr:hover {
+    background-color: #ddd;
+}
+
+.prices th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: white;
+    color: black;
+}
+
+
+
+
+@media(max-width:479px) {
+    
+    header{
+        position: absolute;
+    }
+    .navbar-menu {
+        display: block;
+    }
+
+    .nm {
+        line-height: 48px;
+    }
+
+    .phones {
+        padding-left: 0;
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .phones a:not(:first-child) {
+        display: none;
+        width: auto;
+    }
+    .phones a:first-child::after{
+        display: none;
+    }
+
+    .nm ul {
+        flex-direction: column;
+    }
+
+    li a{
+        padding-left: 0;
+    }
+    .logo {
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .main-head {        
+        margin-top: 260px;
+        padding-top: 330px;
+        background: url(../Images/conditioner-media.jpg) center center no-repeat local / cover;
+    }
+
+    .main-head h1 {
+        font-size: 40px;
+        margin: -355px 0 10px 0;
+    }
+
+    .main-head h2 {
+        margin-top: 0;
+        font-size: 14px;
+    }
+
+    .services {
+        height: 950px;
+    }
+
+    .serv {
+        width: 300px;
+    }
+
+    .serv-item {
+        width: 150px;
+        padding-top: 20px;
+    }
+
+    .sale-txt input {
+        margin: 20px 0px 0 0;
+    }
+
+    .sale {
+        background: url(../Images/section-prise-media1.jpg) center center no-repeat fixed / cover;
+    }
+
+    .sale h2 {
+        font-size: 18px;
+    }
+
+    .sale h2:first-child {
+        padding-top: 10px;
+    }
+
+    .about-us {
+        display: block;
+    }
+    .txt-about-us .choise {
+        padding-top: 10px;
+        font-size: 17px;
+    }
+    .us-item {
+        width: 100%;
+        height: 350px;
+    }
+
+    .us-item:last-child {
+        height: 350px;
+    }
+
+    .about-us h2 {
+        padding-top: 70px;
+        margin: 0;
+        font-size: 17px;
+    }
+    .change-scr ul li{
+        text-align: left;
+    }
+    .txt-about-us {
+        text-align: center;
+    }
+
+    .about-us h2::after {
+        margin: 30px auto;
+    }
+
+    .back img {
+        width: 50%;
+        height: 50%;
+    }
+
+    .main-footer {
+        flex-wrap: wrap;
+    }
+
+    .item-footer {
+        text-align: center;
+        width: 70%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .price{
+        display: none;
+    }
+    .soc i {
+        margin: 0 15px 0 0;
+    }
+}
+
+@media screen and (min-width:479px) and (max-width:800px) {
+    
+    
+    .phones a:nth-child(3)::after{
+        display: none;
+    }
+    .phones a:last-child{
+        display: none;
+    }
+    .navbar-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        padding: 0;
+    }
+
+    .nm {
+        line-height: 30px;
+        margin-left: 0;
+    }
+
+    .icons {
+        line-height: 30px;
+        width: auto;
+    }
+
+    .main-head {
+        margin-top: 170px;
+        background: url(../Images/conditioner-fone.jpg) center center no-repeat fixed / cover;
+
+    }
+    
+    .main-head h1 {
+        font-size: 40px;
+        margin: -140px 0 10px 0;
+    }
+
+    .main-head h2 {
+        margin-top: 0;
+        font-size: 14px;
+    }
+    .txt-about-us .choise {
+        padding-top: 15px;
+        font-size: 17px;
+    }
+    .services {
+        height: 1000px;
+    }
+
+    .serv {
+        width: 300px;
+    }
+
+    .serv-item {
+        width: 150px;
+        padding-top: 20px;
+    }
+
+    .sale {
+        background: url(../Images/section-prise-media1.jpg) center center no-repeat local / cover;
+    }
+
+    .sale-txt input {
+        margin: 20px 0px 0 0;
+    }
+
+    .sale h2 {
+        font-size: 18px;
+    }
+
+    .sale h2:first-child {
+        padding-top: 10px;
+    }
+
+    .about-us {
+        display: block;
+    }
+
+    .us-item {
+        width: 100%;
+        height: 350px;
+    }
+
+    .us-item:last-child {
+        height: 350px;
+    }
+
+    .about-us h2 {
+        
+        font-size: 20px;
+        padding-top: 50px;
+        margin: 0;
+    }
+    .change-scr ul li{
+        text-align: left;
+    }
+    .txt-about-us {
+        text-align: center;
+    }
+
+    .about-us h2::after {
+        margin: 30px auto;
+    }
+
+    .back img {
+        width: 50%;
+        height: 50%;
+    }
+
+    .main-footer {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .item-footer {
+        text-align: center;
+
+        width: 70%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .price{
+        display: none;
+    }
+    .soc i {
+        margin: 0 15px 0 0;
+    }
+}
+
+
